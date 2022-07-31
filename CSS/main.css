@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    font-family: "Lato";
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #111111;
+}
+
+.logo{
+    filter: invert(17%) sepia(63%) saturate(5467%) hue-rotate(347deg) brightness(81%) contrast(93%);
+  
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.nav-list-item{
+    padding: 0px 30px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#arrow-1{
+    color: aliceblue;
+}
+
+img[src="./assets/1.png"]{
+    height: 800px;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.main-info{
+    margin-top: 200px;
+    color: aliceblue;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+button{
+    height: 50px;
+    width: 160px;
+    background-color: #C91B28;
+    color: aliceblue;
+    font-size: bold;
+    border: 0px;
+}
+
+.main-section-btn{
+    margin-top: 30px;
+}
+
+img[src="./assets/tablet.svg"]{
+    height: 120px;
+}
+
+img[src="./assets/rule1.svg"]{
+ height: 130px;
+}
+img[src="./assets/notepad.svg"]{
+    height: 120px;
+}
+
+
+.Box-1{
+    color: aliceblue;
+    box-shadow: 10px 0px 10px black;
+    width: 200px;
+    text-align: center;
+    padding: 30px 60px;
+    margin-left: 50px;
+}
+
+.mid-section-upper{
+   display: flex;
+   flex-direction: row;
+  justify-content: center;
+  margin-top: -600px;
+  margin-left: 180px;
+  
+}
+
+.count{
+    color: aliceblue;
+    height: 80px;
+    width: 200px;
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    box-shadow: 10px 0px 10px black;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid-section-count{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 200px;
+    border: 0px;
+     margin-left: 570px;
+ 
+}
+
+
+.mid-section-background{
+     background-color: #1E1E1E;
+     width: 900px;
+    height: 800px;
+    
+}
+
+.mid-section-main-count{
+    color: aliceblue;
+    position: relative;
+    font-size: 30px;
+    left: 350px;
+    top: 150px;
+    
+}
+
+.mid-heading{
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 320px;
+    margin-right: 150px;
+    width: 800px;
+    padding: 30px 0px;
+}
+
+
+
+img[src="./assets/2.jpg"]{
+    height: 180px;
+
+}
+img[src="./assets/3.jpg"]{
+    height: 180px;
+
+}
+img[src="./assets/4.jpg"]{
+    height: 180px;
+
+}
+img[src="./assets/5.jpg"]{
+    height: 180px;
+
+}
+
+.bottom-box-1{
+     background-color: #1E1E1E;
+     width: 400px;
+     text-align: center;
+      box-shadow: 10px 0px 10px black;
+     
+}
+
+.bottom-desc{
+    color: aliceblue;
+}
+
+
+
+.mid-section-bottom{
+    height: 480px;
+    width: 900px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    align-items: center;
+    display: flex;
+     box-shadow: 10px 0px 10px black;
+    
+}
+
+
+.bottom{
+    background-color: #1E1E1E;
+    color: aliceblue;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 40px 50px;
+    margin-top: 100px;
+    width: 1000px;
+     box-shadow: 10px 0px 10px black;
+}
+
+.bottom-left-text,.bottom-right-button{
+    padding: 0px 100px;
+    
+}
+
+.footer-list-items{
+      margin-top: 50px;
+    text-align: center;
+}
+
+
+
+.footer-bottom{
+    display: flex;
+    width: 100vw;
+    height: 100px;
+      background-color: #1E1E1E;
+      color: aliceblue;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-top: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.contact-btn{
+    margin-top: 40px;
+}
+
+
+.red{
+    color: #C91B28;  
+}
+
+#red-box{
+    background-color:  #C91B28; 
+}
+
+#box-text-white{
+    color: aliceblue;
+} 
+
+.know-more{
+    color: #C91B28;  
+}
+
+h6{
+    font-size: 30px;
+}
+
+.main-info-name{
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+.main-info-text-1{
+     padding: 20px 0px;
+    font-size: 70px;
+}
